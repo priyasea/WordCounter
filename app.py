@@ -23,4 +23,4 @@ def calculate():
     return render_template('calculate.html' , predict = f'The number of words is {words}. The words are {clean_word}. The number of sentences are {sent}. The sentences are {sentlist}. The number of characters are {chars}. Frequency distribution of Words is {freq.items()}')
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8080, debug=True)
+    app.run()
